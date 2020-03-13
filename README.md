@@ -1,2 +1,2 @@
-# CorporatePlus
-Corporate Plus - Administering Expertly (ERP Web Application)
+# Steps for importing the project to your system
+
