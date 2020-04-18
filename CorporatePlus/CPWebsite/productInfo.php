@@ -179,7 +179,7 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
-            <div class="section-title" style='height: 160px'>
+            <div class="section-title" style='height: auto;'>
               <h2><?php echo $productName ?></h2>
               <p><?php echo $productDescription ?></p>
 
@@ -187,10 +187,10 @@
             
             <div class="product-description">
               <?php
-              echo '<a href="#" class="shipping product-documentation"><div  data-aos="fade-up" data-aos-delay="100"> 
+              echo '<a href="#" class="shipping product-documentation"><div> 
               <div class="icon"><i class="bx bx-file"></i>&nbsp;&nbsp;Documentation</div></div></a><input type="text" hidden value='.$productId.'>';?>
               <?php
-              echo "<a href='#' data-toggle='modal' data-target='#modal-primary-30' class='shipping'><div  data-aos='fade-up' data-aos-delay='100'>
+              echo "<a href='#' data-toggle='modal' data-target='#modal-primary-30' class='shipping'><div>
               <div class='icon'><i class='bx bx-cog'></i>&nbsp;&nbsp;Product Inquiry</div></div></a>";
 
               echo "<div class='modal fade' id='modal-primary-30'>
