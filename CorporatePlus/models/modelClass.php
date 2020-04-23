@@ -2462,7 +2462,7 @@
                                     FROM web_inquiry,products
                                     WHERE
                                     products.product_id=web_inquiry.product_id AND
-                                    web_inquiry.web_inquiry_id=37");
+                                    web_inquiry.web_inquiry_id=".(int)$inqId);
         
         while($row = mysqli_fetch_array($result)){
             
