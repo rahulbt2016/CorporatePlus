@@ -423,7 +423,7 @@
                         $result = mysqli_query($con,$query);
                         $flag = 0;
                         while($row=mysqli_fetch_array($result)){
-                            if($row['form_file']=='addIndustrialApplication.php')
+                            if($row['form_file']=='addService.php')
                             $flag=1;
                         }
                         if($flag){
