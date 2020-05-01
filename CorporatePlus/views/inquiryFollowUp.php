@@ -1,24 +1,24 @@
 <?php
     session_start();
     
-    unset($_SESSION['editDesignationName']);
-    unset($_SESSION['editUserId']);
-    unset($_SESSION['editVendorRegNum']);
-    unset($_SESSION['return-raw-mat-order-id']);
-    unset($_SESSION['editProductId']);
-    unset($_SESSION['barcode-product-name']);
-    unset($_SESSION['barcode-quantity']);
-    //unset($_SESSION['followInqID']);
-    unset($_SESSION['saleInvoiceGenSaleID']);
-    unset($_SESSION['saleDescriptionSaleId']);
-    unset($_SESSION['saleDescriptionFlag']);
-    unset($_SESSION['editProductCategoryId']);
-    unset($_SESSION['inquiryDescriptioninquiryID']);
-    unset($_SESSION['confirmSaleinquiryID']);
-    unset($_SESSION['addSaleFlag']);
-    unset($_SESSION['inquiryPageWebInqId']);
-    unset($_SESSION['inquiryPageFlag']);
-    unset($_SESSION['industrialApplicationId']);
+//    unset($_SESSION['editDesignationName']);
+//    unset($_SESSION['editUserId']);
+//    unset($_SESSION['editVendorRegNum']);
+//    unset($_SESSION['return-raw-mat-order-id']);
+//    unset($_SESSION['editProductId']);
+//    unset($_SESSION['barcode-product-name']);
+//    unset($_SESSION['barcode-quantity']);
+//    //unset($_SESSION['followInqID']);
+//    unset($_SESSION['saleInvoiceGenSaleID']);
+//    unset($_SESSION['saleDescriptionSaleId']);
+//    unset($_SESSION['saleDescriptionFlag']);
+//    unset($_SESSION['editProductCategoryId']);
+//    unset($_SESSION['inquiryDescriptioninquiryID']);
+//    unset($_SESSION['confirmSaleinquiryID']);
+//    unset($_SESSION['addSaleFlag']);
+//    unset($_SESSION['inquiryPageWebInqId']);
+//    unset($_SESSION['inquiryPageFlag']);
+//    unset($_SESSION['industrialApplicationId']);
     
     if(!$_SESSION['email']){
         header("Location: login.php");

@@ -68,7 +68,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
 				<form class="login100-form validate-form">
-					<span><center><a href='../CPWebsite/index.php' title='Website'><img src="../dashboard_assets/dist/img/logo2NewNoBG.png" style="height:70px;width: 70px"></a></center></span>
+                                    <span><center><a href='../CPWebsite/index.php' title='Website'><img src="../dashboard_assets/dist/img/logo2NewNoBG.png" style="height:70px;width: 70px"></a></center></span>
                                         &nbsp;
 					<span class="login100-form-title p-b-33">
 						Corporate Plus - User Login
